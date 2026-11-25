@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <defs>
+    <linearGradient id="mmGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#efcf96" />
+      <stop offset="50%" stop-color="#d7ad69" />
+      <stop offset="100%" stop-color="#b88f4b" />
+    </linearGradient>
+    <filter id="mmShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#d7ad69" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Gold Badge with Musical Note -->
+  <rect x="6" y="8" width="44" height="44" rx="12" fill="url(#mmGoldGrad)" filter="url(#mmShadow)"/>
+  <!-- Musical Note Icon -->
+  <path d="M33 19v14.5a4 4 0 1 1-3-3.87V23.2l9-2v12.3a4 4 0 1 1-3-3.87V17L33 19z" fill="#121411"/>
+  <!-- Brand Typography -->
+  <text x="60" y="37" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700" fill="#ffffff" letter-spacing="0.3">Melody<tspan fill="url(#mmGoldGrad)">Mart</tspan></text>
+  <text x="61" y="49" font-family="'DM Sans', -apple-system, sans-serif" font-size="8.5" font-weight="600" fill="#a4a69e" letter-spacing="2.2">MUSICAL INSTRUMENTS</text>
+</svg>
